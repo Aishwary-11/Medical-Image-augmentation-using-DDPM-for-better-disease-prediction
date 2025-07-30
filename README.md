@@ -35,6 +35,9 @@ The project is structured for modularity and reproducibility, separating concern
 │   ├── config.py            # Central configuration
 │   ├── data_loader.py       # Datasets and DataLoaders
 │   ├── models/              # Model architectures (DDPM, Classifier)
+│   │   ├── __init__.py
+│   │   ├── ddpm.py
+│   │   └── classifier.py
 │   ├── train_ddpm.py        # Script to train the generative model
 │   ├── train_classifier.py  # Script to train the classifier
 │   ├── generate_images.py   # Script to generate synthetic images
